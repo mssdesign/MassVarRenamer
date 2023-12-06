@@ -1,10 +1,12 @@
 ## MASS VAR RENAMER
 
-Este projeto contém um script Python que realiza substituições de texto em massa em arquivos de um diretório especificado pelo usuário.
+Este projeto contém um script Python que realiza substituições de texto em massa em arquivos de um diretório especificado pelo usuário. Este script já lida com o problema conhecido como "overlapping match" ou "collision" em operações de substituição em massa.
 
 ## Como Usar
 
-Para usar este script, você deve fornecer um arquivo CSV contendo os pares de strings de "DE" e "PARA" que você deseja substituir. O script lerá este arquivo e realizará as substituições correspondentes em todos os arquivos do diretório de projeto que você especificar.
+Para usar este script, você deve fornecer um arquivo CSV contendo os pares de strings de "DE" e "PARA" que você deseja substituir. O script lerá este arquivo e realizará as substituições correspondentes em todos os arquivos do diretório de projeto que você especificar. 
+
+OBS: Utilize aspas ao fornecer o caminho dos arquivos!
 
 ## Transformando o Script em um Executável
 
@@ -28,6 +30,10 @@ Para converter este script Python em um executável, siga as instruções abaixo
 ## Execução Como Administrador
 
 Note que, dependendo das permissões de arquivo no diretório de destino, pode ser necessário executar o script como administrador. Para fazer isso, clique com o botão direito no executável e selecione "Executar como administrador".
+
+## Exemplo de CSV
+A;B
+C;D
 
 ## Contribuições
 
