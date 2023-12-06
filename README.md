@@ -19,7 +19,7 @@ Para converter este script Python em um executável, siga as instruções abaixo
 
 3. Use o PyInstaller para criar o executável a partir do seu script Python:
     ```bash
-    pyinstaller --onefile seu_script.py
+    pyinstaller --onefile replacerWithCSV.py
     ```
     Isso irá gerar um arquivo executável na pasta `dist` no diretório atual.
 
